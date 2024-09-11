@@ -1,0 +1,9 @@
+# Ignore Python bytecode
+__pycache__/
+
+# Ignore all .log files
+*.log
+
+# Ignore node_modules (common for JavaScript projects)
+node_modules/
+
