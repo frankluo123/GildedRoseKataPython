@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# CS 5500
 
 
 class Item:
