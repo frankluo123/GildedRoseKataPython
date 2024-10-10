@@ -15,7 +15,7 @@ class GildedRoseTest(unittest.TestCase):
 
         expected = [Item(vest, 2, 5), Item(vest, 10, 20), Item(vest, 3, 7)]
         actual = items
-        self.assertEqual(str(actual), str(expected))  # This test should fail initially
+        self.assertEqual(str(actual), str(expected))
 
     def test_aged_brie_increases_in_quality(self):
         aged_brie = "Aged Brie"
@@ -41,4 +41,3 @@ class GildedRoseTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
